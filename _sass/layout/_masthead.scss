@@ -1,0 +1,93 @@
+// Styling for the masthead
+header.masthead {
+  text-align: center;
+  color: white;
+  position: relative;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("#{$header-image}");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center 30%;
+    background-size: cover;
+    filter: blur(15px) brightness(1.1) saturate(1.2);
+    opacity: 0.9;
+    z-index: -1;
+  }
+  .intro-text {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .intro-lead-in {
+      font-size: 28px;
+      font-style: italic;
+      line-height: 28px;
+      margin-bottom: 5px;
+      @include serif-font;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      font-weight: 600;
+    }
+    .slogan-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 25px;
+      .intro-slogan {
+        font-size: 24px;
+        line-height: 24px;
+        @include heading-font;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        font-weight: 500;
+        margin-bottom: -5px;
+      }
+      .intro-heading {
+        font-size: 120px;
+        font-weight: 700;
+        line-height: 100px;
+        @include script-font;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        letter-spacing: 2px;
+      }
+    }
+  }
+}
+@media (min-width: 768px) {
+  header.masthead {
+    .intro-text {
+      padding-top: 300px;
+      padding-bottom: 200px;
+      .intro-lead-in {
+        font-size: 45px;
+        font-style: italic;
+        line-height: 45px;
+        margin-bottom: 10px;
+        @include serif-font;
+      }
+      .slogan-container {
+        margin-bottom: 30px;
+        .intro-slogan {
+          font-size: 35px;
+          line-height: 35px;
+          @include heading-font;
+          margin-bottom: -10px;
+        }
+        .intro-heading {
+          font-size: 180px;
+          font-weight: 700;
+          line-height: 150px;
+          @include script-font;
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+          letter-spacing: 3px;
+        }
+      }
+    }
+  }
+}
