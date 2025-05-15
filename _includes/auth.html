@@ -1,0 +1,46 @@
+<!-- GitHub Login Button -->
+<div class="github-login" style="display:none;">
+  {% if site.github.owner_name %}
+    <div class="user-info">
+      <img src="{{ site.github.owner_avatar_url }}" alt="Profile" class="avatar">
+      <span>{{ site.github.owner_name }}</span>
+      <a href="/logout" class="btn btn-sm btn-outline-secondary">Logout</a>
+    </div>
+  {% else %}
+    <a href="/auth/github" class="btn btn-primary">
+      <i class="fab fa-github"></i> Login with GitHub
+    </a>
+  {% endif %}
+</div>
+
+<style>
+.github-login {
+  position: relative;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.user-info .avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-info span {
+  margin-right: 10px;
+}
+</style>
+{% if page.layout == 'profile' %}
+<!-- 这里原本的 github-login 代码已上移并隐藏 -->
+{% endif %} 

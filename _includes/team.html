@@ -1,0 +1,79 @@
+<!-- Team -->
+{% if site.locale and site.locale != "" and site.locale != nil %}
+<section class="bg-light page-section" id="{{ site.data.sitetext[site.locale].team.section | default: "team" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].team.title }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].team.text }}</h3>
+        <h4 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].team.subtext }}</h4>
+      </div>
+    </div>
+    {% for category in site.data.sitetext[site.locale].team.categories %}
+    <div class="row mb-4">
+      <div class="col-lg-12">
+        <div class="team-category">
+          <div class="category-title" data-toggle="collapse" data-target="#category-{{ forloop.index }}" aria-expanded="true">
+            <h3>{{ category.name }}</h3>
+          </div>
+          <div class="collapse show" id="category-{{ forloop.index }}">
+            <div class="row">
+              {% for person in category.people %}
+              <div class="col-lg-3">
+                <div class="team-member">
+                  <a href="{{ person.url }}" target="_blank">
+                    <img class="mx-auto rounded-circle" src="{{ person.image }}" alt="{{ person.name }}">
+                  </a>
+                  <h4>{{ person.name }}</h4>
+                  <p class="text-muted">{{ person.role }}</p>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% else %}
+<section class="bg-light page-section" id="{{ site.data.sitetext.team.section | default: "team" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.team.title }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext.team.text }}</h3>
+        <h4 class="section-subheading text-muted">{{ site.data.sitetext.team.subtext }}</h4>
+      </div>
+    </div>
+    {% for category in site.data.sitetext.team.categories %}
+    <div class="row mb-4">
+      <div class="col-lg-12">
+        <div class="team-category">
+          <div class="category-title" data-toggle="collapse" data-target="#category-{{ forloop.index }}" aria-expanded="true">
+            <h3>{{ category.name }}</h3>
+          </div>
+          <div class="collapse show" id="category-{{ forloop.index }}">
+            <div class="row">
+              {% for person in category.people %}
+              <div class="col-lg-3">
+                <div class="team-member">
+                  <a href="{{ person.url }}" target="_blank">
+                    <img class="mx-auto rounded-circle" src="{{ person.image }}" alt="{{ person.name }}">
+                  </a>
+                  <h4>{{ person.name }}</h4>
+                  <p class="text-muted">{{ person.role }}</p>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+<!-- End Team -->

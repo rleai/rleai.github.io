@@ -1,0 +1,330 @@
+---
+layout: default
+---
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+  <div class="container-fluid px-5">
+    <a class="navbar-brand js-scroll-trigger" href="/">
+      {%- if site.logo -%}
+        <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}"/>
+      {%- else -%}
+        {{ site.title }}
+      {%- endif -%}
+    </a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav text-uppercase ml-auto">
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- End Navigation -->
+<style>
+body.profile-page {
+  padding-top: 110px;
+}
+@media (max-width: 991px) {
+  body.profile-page {
+    padding-top: 70px;
+  }
+}
+
+/* 个人内容区美化样式 */
+.profile-header {
+  max-width: 1800px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+.profile-header:hover {
+  transform: translateY(-5px);
+}
+.profile-image {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  border: 5px solid #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.profile-image:hover {
+  transform: scale(1.05);
+}
+.profile-header h1 {
+  font-size: 1.8rem;
+}
+.profile-header h4 {
+  font-size: 1.1rem;
+}
+.education-list {
+  background: none;
+  border-left: 3px solid #fed136;
+  padding-left: 18px;
+}
+.research-areas {
+  margin-top: 10px;
+}
+.research-areas .badge {
+  background-color: #fed136;
+  color: #212529;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  transition: all 0.3s ease;
+}
+.research-areas .badge:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+.nav-tabs {
+  border-bottom: 2px solid #dee2e6;
+}
+.nav-tabs .nav-link {
+  border: none;
+  color: #6c757d;
+  padding: 1rem 1.5rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.nav-tabs .nav-link:hover {
+  color: #fed136;
+  border: none;
+}
+.nav-tabs .nav-link.active {
+  color: #fed136;
+  border: none;
+  border-bottom: 2px solid #fed136;
+}
+.card {
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+.project-item, .publication-item, .award-item {
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+.project-item:hover, .publication-item:hover, .award-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+.badge-ongoing {
+  background-color: #28a745;
+  color: #fff;
+}
+.badge-completed {
+  background-color: #6c757d;
+  color: #fff;
+}
+.social-links .btn {
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  transition: all 0.3s ease;
+}
+.social-links .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+.container {
+  max-width: 1800px;
+}
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.body.classList.add('profile-page');
+  var nav = document.getElementById('mainNav');
+  if(nav) nav.classList.add('profile-navbar');
+  window.addEventListener('scroll', function() {
+    if (window.scrollY > 100) {
+      nav.classList.add('navbar-shrink');
+    } else {
+      nav.classList.remove('navbar-shrink');
+    }
+  });
+});
+</script>
+<!-- Profile Page -->
+<section class="page-section">
+  <div class="container">
+    <!-- Profile Header -->
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="profile-header">
+          <div class="row align-items-center">
+            <div class="col-md-2 text-center">
+              <img class="rounded-circle profile-image" src="{{ page.image | default: 'assets/img/team/headimage.png' }}" alt="{{ page.name }}">
+            </div>
+            <div class="col-md-6" style="padding-right: 10px;">
+              <h1 class="text-uppercase">{{ page.name }}</h1>
+              <h4 class="text-muted">{{ page.role }}</h4>
+              <div class="social-links mt-3 mb-2">
+                {% if page.contact.email %}
+                <a href="mailto:{{ page.contact.email }}" class="btn btn-outline-primary btn-sm"><i class="fas fa-envelope"></i> Email</a>
+                {% endif %}
+                {% if page.contact.github %}
+                <a href="{{ page.contact.github }}" target="_blank" class="btn btn-outline-dark btn-sm"><i class="fab fa-github"></i> GitHub</a>
+                {% endif %}
+                {% if page.contact.linkedin %}
+                <a href="{{ page.contact.linkedin }}" target="_blank" class="btn btn-outline-primary btn-sm"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                {% endif %}
+                {% if page.contact.google_scholar %}
+                <a href="{{ page.contact.google_scholar }}" target="_blank" class="btn btn-outline-success btn-sm"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+                {% endif %}
+              </div>
+              <div class="research-areas mb-2">
+                {% for area in page.research_areas %}
+                <span class="badge badge-primary" style="font-size:1rem;margin-right:8px;">{{ area }}</span>
+                {% endfor %}
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="education-list" style="padding-left: 10px;">
+                {% for edu in page.education %}
+                <div class="education-item mb-2">
+                  <div style="font-weight:bold;">{{ edu.degree }}{% if edu.advisor %} (supervisor: {{ edu.advisor }}){% endif %}</div>
+                  <div class="text-muted" style="font-size:0.95em;">{{ edu.institution }} | {{ edu.period }}</div>
+                </div>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation Tabs -->
+    <div class="row mt-4">
+      <div class="col-lg-12">
+        <ul class="nav nav-tabs" id="profileTabs" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="biography-tab" data-toggle="tab" href="#biography" role="tab">Biography</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="projects-tab" data-toggle="tab" href="#projects" role="tab">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="publications-tab" data-toggle="tab" href="#publications" role="tab">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="awards-tab" data-toggle="tab" href="#awards" role="tab">Awards</a>
+          </li>
+        </ul>
+        <!-- Tab Content -->
+        <div class="tab-content mt-4" id="profileTabContent">
+          <!-- Biography Tab -->
+          <div class="tab-pane fade show active" id="biography" role="tabpanel">
+            <div class="card">
+              <div class="card-body">
+                <div class="biography">
+                  {{ page.biography | markdownify }}
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Projects Tab -->
+          <div class="tab-pane fade" id="projects" role="tabpanel">
+            <div class="card">
+              <div class="card-body">
+                {% for project in page.projects %}
+                <div class="project-item">
+                  <h5>{{ project.name }}</h5>
+                  <p class="text-muted">{{ project.period }} | {{ project.role }}</p>
+                  <p>{{ project.description }}</p>
+                  <span class="badge badge-{{ project.status | downcase }}">{{ project.status }}</span>
+                </div>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+          <!-- Publications Tab -->
+          <div class="tab-pane fade" id="publications" role="tabpanel">
+            <div class="card">
+              <div class="card-body">
+                {% for pub in page.publications %}
+                <div class="publication-item">
+                  <h5>{{ pub.title }}</h5>
+                  <p class="text-muted">{{ pub.authors }}</p>
+                  <p><em>{{ pub.venue }}</em>, {{ pub.year }}</p>
+                  {% if pub.abstract %}
+                  <p class="abstract">{{ pub.abstract }}</p>
+                  {% endif %}
+                  <div class="publication-links">
+                    {% if pub.doi %}
+                    <a href="https://doi.org/{{ pub.doi }}" target="_blank" class="btn btn-sm btn-outline-primary">DOI</a>
+                    {% endif %}
+                    {% if pub.pdf %}
+                    <a href="{{ pub.pdf }}" target="_blank" class="btn btn-sm btn-outline-secondary">PDF</a>
+                    {% endif %}
+                    {% if pub.citation %}
+                    <button class="btn btn-sm btn-outline-info" onclick="copyCitation('{{ pub.citation }}')">Copy Citation</button>
+                    {% endif %}
+                  </div>
+                </div>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+          <!-- Awards Tab -->
+          <div class="tab-pane fade" id="awards" role="tabpanel">
+            <div class="card">
+              <div class="card-body">
+                {% for award in page.awards %}
+                <div class="award-item">
+                  <h5>{{ award.name }}</h5>
+                  <p class="text-muted">{{ award.organization }}, {{ award.year }}</p>
+                  <p>{{ award.description }}</p>
+                </div>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+
+<script>
+function copyCitation(citation) {
+  navigator.clipboard.writeText(citation).then(function() {
+    alert('Citation copied to clipboard!');
+  }).catch(function(err) {
+    console.error('Could not copy citation: ', err);
+  });
+}
+
+// Initialize Bootstrap tabs
+$(document).ready(function() {
+  $('#profileTabs a').on('click', function (e) {
+    e.preventDefault();
+    $(this).tab('show');
+  });
+});
+</script> 

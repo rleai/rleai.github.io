@@ -1,0 +1,134 @@
+---
+layout: default
+title: 成员信息
+permalink: /profile
+---
+
+<!-- Profile Section -->
+<section class="page-section" id="profile">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">成员信息</h2>
+                <h3 class="section-subheading text-muted">您的个人信息</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="profile-info">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="info-group">
+                                <label>姓名</label>
+                                <p id="name"></p>
+                            </div>
+                            <div class="info-group">
+                                <label>职称</label>
+                                <p id="title"></p>
+                            </div>
+                            <div class="info-group">
+                                <label>邮箱</label>
+                                <p id="email"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="info-group">
+                                <label>研究方向</label>
+                                <p id="research"></p>
+                            </div>
+                            <div class="info-group">
+                                <label>教育背景</label>
+                                <p id="education"></p>
+                            </div>
+                            <div class="info-group">
+                                <label>发表论文</label>
+                                <p id="publications"></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="info-group">
+                                <label>个人简介</label>
+                                <p id="bio"></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 text-center">
+                            <div id="message"></div>
+                            <a href="/edit-profile" class="btn btn-primary btn-xl text-uppercase">编辑信息</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+#profile {
+    padding: 100px 0;
+    background-color: #f8f9fa;
+}
+
+.profile-info {
+    background: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.info-group {
+    margin-bottom: 1.5rem;
+}
+
+.info-group label {
+    display: block;
+    font-weight: bold;
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+}
+
+.info-group p {
+    margin: 0;
+    padding: 0.5rem;
+    background-color: #f8f9fa;
+    border-radius: 0.3rem;
+    min-height: 2.5rem;
+}
+
+.btn-xl {
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+}
+</style>
+
+<script>
+// 加载个人资料数据
+async function loadProfileData() {
+    try {
+        const response = await fetch('/api/profile');
+        if (response.ok) {
+            const data = await response.json();
+            if (data) {
+                document.getElementById('name').textContent = data.name || '未填写';
+                document.getElementById('title').textContent = data.title || '未填写';
+                document.getElementById('email').textContent = data.email || '未填写';
+                document.getElementById('research').textContent = data.research || '未填写';
+                document.getElementById('education').textContent = data.education || '未填写';
+                document.getElementById('publications').textContent = data.publications || '未填写';
+                document.getElementById('bio').textContent = data.bio || '未填写';
+            } else {
+                document.getElementById('message').innerHTML = '您还没有填写个人信息，请点击"编辑信息"按钮进行填写';
+                document.getElementById('message').style.color = '#6c757d';
+            }
+        } else {
+            throw new Error('获取数据失败');
+        }
+    } catch (error) {
+        document.getElementById('message').innerHTML = '加载数据失败，请刷新页面重试';
+        document.getElementById('message').style.color = 'red';
+    }
+}
+
+// 页面加载时获取数据
+document.addEventListener('DOMContentLoaded', loadProfileData);
+</script> 

@@ -1,0 +1,134 @@
+// Styling for the team section
+.team-member {
+  margin-bottom: 30px;
+  text-align: center;
+  img {
+    width: 160px;
+    height: 160px;
+    border: 7px solid fade-out($black, 0.9);
+    object-fit: cover;
+  }
+  h4 {
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-transform: none;
+  }
+  p {
+    margin-top: 0;
+  }
+}
+
+.team-category {
+  margin-bottom: 40px;
+  
+  .category-title {
+    text-align: left;
+    margin-bottom: 25px;
+    position: relative;
+    cursor: pointer;
+    
+    h3 {
+      display: inline-block;
+      background: white;
+      padding: 0 20px;
+      position: relative;
+      z-index: 1;
+      margin: 0;
+      font-size: 24px;
+      font-weight: normal;
+      font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      color: $primary;
+      transition: all 0.3s ease;
+      
+      &:hover {
+        color: darken($primary, 10%);
+      }
+    }
+    
+    &::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: $primary;
+      z-index: 0;
+    }
+  }
+}
+
+// 修改团队部分的文字样式
+.section-heading {
+  .section-heading-subheading {
+    font-style: italic;
+    margin-top: -10px;
+    margin-bottom: 30px;
+  }
+}
+
+// 调整容器宽度和布局
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.col-lg-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+// 修改响应式布局，所有屏幕尺寸都显示4个成员
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+  
+  .team-member img {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+  
+  .team-member img {
+    width: 130px;
+    height: 130px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+  
+  .team-member img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+  
+  .team-member img {
+    width: 110px;
+    height: 110px;
+  }
+}

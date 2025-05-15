@@ -1,0 +1,66 @@
+.navbar {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: transparent;
+  .navbar-brand {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $white;
+    padding: 0;
+  }
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+        white-space: nowrap;
+        &:hover {
+          color: fade-out($white, 0.25);
+        }
+        &:active,
+        &:focus {
+          color: $white;
+        }
+        &.active {
+          color: $primary !important;
+          background-color: transparent;
+          &:hover {
+            background-color: transparent;
+          }
+        }
+      }
+    }
+  }
+  .navbar-toggler {
+    font-size: 80%;
+    padding: 0.8rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .navbar {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    .navbar-brand {
+      font-size: 1.75em;
+      transition: font-size 0.3s;
+    }
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          padding: 1.1rem 1rem !important;
+        }
+      }
+    }
+    &.navbar-shrink {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      .navbar-brand {
+        font-size: 1.25em;
+      }
+    }
+  }
+} 
