@@ -55,5 +55,5 @@ contact:
   email: zhoutx6024@gmail.com
   github: https://github.com/Tziy
   linkedin: https://www.linkedin.com/zhoutianxing/
-  google_scholar: https://scholar.google.com/citations?user=-AHCSxIAAAAJ&hl=en
+  google_scholar: https://scholar.google.com/citations?user=sc9GTbcAAAAJ&hl=en
 --- 
