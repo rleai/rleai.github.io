@@ -3,7 +3,7 @@ layout: profile
 title: Yang, Xinye
 name: Yang, Xinye
 role: Ph.D. Candidate
-image: /assets/img/team/headimage.png
+image: /assets/img/team/yang-xinye.jpg
 email: s-yxy24@bjzgca.edu.cn
 education: 
   - degree: Ph.D. Candidate
