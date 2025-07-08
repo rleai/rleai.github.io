@@ -3,7 +3,7 @@ layout: profile
 title: Chen, Haolin
 name: Chen, Haolin
 role: Project Manager & Ph.D. Candidate
-image: /assets/img/team/headimage.png
+image: /assets/img/team/chen-shuaihang.jpg
 email: s-chensh24@bjzgca.edu.cn
 education: 
   - degree: Ph.D. student
