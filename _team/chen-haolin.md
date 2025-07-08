@@ -3,13 +3,13 @@ layout: profile
 title: Chen, Haolin
 name: Chen, Haolin
 role: Ph.D. Candidate
-image: /assets/img/team/headimage.png
+image: /assets/img/team/chen-haolin.jpg
 email: s-chl25@bjzgca.edu.cn
 education: 
   - degree: Ph.D. Candidate in Mechanical Engineering
     institution: Beijing Institute of Technology
     period: 2023-Present
-    advisor: Prof. Xu Bin
+    Advisor: Prof. Xu Bin
   - degree: M.Sc. in Electronic Information
     institution: University of Electronic Science and Technology of China
     period: 2020-2023
