@@ -176,7 +176,7 @@ en: &DEFAULT_EN
             url: "/team/zhou-tianxing/"
           - name: "Liu, Zhihao"
             role: "Ph.D."
-            image: assets/img/team/liuzhihao.png
+            image: assets/img/team/liu-zhihao.png
             url: "/team/liu-zhihao/"
       - name: "Interns"
         people:
