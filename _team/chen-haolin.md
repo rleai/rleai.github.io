@@ -11,7 +11,7 @@ education:
     period: 2023-Present
     advisor: Prof. XXX
   - degree: M.Sc. in Computer Science
-    institution: Tsinghua University
+    institution: Tinghua University
     period: 2020-2023
   - degree: B.Sc. in Computer Science
     institution: Tsinghua University
