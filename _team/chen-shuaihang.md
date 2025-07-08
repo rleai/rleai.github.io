@@ -1,9 +1,9 @@
 ---
 layout: profile
-title: Chen, Haolin
-name: Chen, Haolin
-role: Project Manager & Ph.D. Candidate
-image: /assets/img/team/chen-shuaihang.jpg
+title: Chen, Shuaihang
+name: Chen, Shuaihang
+role: Ph.D. student
+image:  /assets/img/team/chen-shuaihang.jpg
 email: s-chensh24@bjzgca.edu.cn
 education: 
   - degree: Ph.D. student
@@ -18,12 +18,12 @@ research_areas:
   - Reinforcement Learning for Multi-embodied Agent
 
 biography: |
-  Chen Shuaihang is a Ph.D. student at HIT, focusing on Reinforcement Learning for Multi-embodied Agent.
+  Chen Shuaihang is a Ph.D. student at HIT, focusing on simulation of manipulation tasks in Embodied AI.
 
   His research interests include:
-  - Multi-agent Systems
-  - Embodied AI
+  - Reinforcement Learning 
   - Human-AI Interaction
+  - Simulation in Embodied AI
 
 
 
