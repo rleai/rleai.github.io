@@ -3,7 +3,7 @@ layout: profile
 title: Zhou, Tianxing
 name: Zhou, Tianxing
 role: Ph.D.
-image: /assets/img/team/zhoutianxing.jpg
+image: /assets/img/team/zhou-tianxing.jpg
 permalink: /team/zhou-tianxing/
 email: zhoutx6024@gmail.com
 education:
