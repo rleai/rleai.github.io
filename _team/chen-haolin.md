@@ -26,7 +26,6 @@ research_areas:
 
 biography:
   Chen Haolin is a Ph.D. candidate at Beijing Institute of Technology, focusing on embodied intelligence, Real2Sim2Real, SLAM, and autonomous navigation. With a strong background in mechanical engineering, electronic information, and communication engineering, he possesses excellent engineering capabilities and is dedicated to advancing the field through innovative research and practical implementations.
-
   His research interests include:
   - Embodied Intelligence
   - SLAM (Simultaneous Localization and Mapping)
@@ -34,7 +33,6 @@ biography:
   - Deep Reinforcement Learning
   - Autonomous Driving
   - Autonomous UAV
-
 
 publications:
   - title: 
