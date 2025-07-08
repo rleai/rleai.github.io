@@ -14,7 +14,7 @@ education:
     institution: Tinghua University
     period: 2020-2023
   - degree: B.Sc. in Computer Science
-    institution: Tsinghua University
+    institution: Tsinghua 
     period: 2016-2020
 
 research_areas:
