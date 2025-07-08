@@ -9,7 +9,7 @@ education:
   - degree: Ph.D. Candidate in Mechanical Engineering
     institution: Beijing Institute of Technology
     period: 2023-Present
-    Advisor: Prof. Xu Bin
+    advisor: Prof. Xu Bin
   - degree: M.Sc. in Electronic Information
     institution: University of Electronic Science and Technology of China
     period: 2020-2023
