@@ -24,6 +24,7 @@ biography: |
   His research interests include:
 
   Artificial Intelligence
+  
   Embodied AI
 
   He actively engages in cutting-edge research projects at the intersection of these fields, aiming to contribute innovative insights to the advancement of AI technology.
