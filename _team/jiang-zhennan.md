@@ -3,7 +3,7 @@ layout: profile
 title: Jiang, Zhennan
 name: Jiang, Zhennan
 role: Ph.D.
-image: /assets/img/team/jiangzhennan.jpg
+image: /assets/img/team/jiang-zhennan.jpg
 permalink: /team/jiang-zhennan/
 email: stjzn0410@gmail.com
 education:
