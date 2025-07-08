@@ -4,7 +4,7 @@ layout: profile
 title: Liu, Zhihao
 name: Liu, Zhihao
 role: Ph.D.
-image: /assets/img/team/liuzhihao.jpg
+image: /assets/img/team/liu-zhihao.png
 permalink: /team/liu-zhihao/
 email: liuzhihao2022@ia.ac.cn
 education:
