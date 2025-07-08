@@ -136,19 +136,19 @@ en: &DEFAULT_EN
         people:
           - name: "Chen, Haolin"
             role: "Ph.D."
-            image: assets/img/team/headimage.png
+            image: assets/img/team/chen-haolin.jpg
             url: "/team/chen-haolin/"
           - name: "Chen, Jiawei"
             role: "Ph.D."
-            image: assets/img/team/headimage.png
+            image: assets/img/team/chen-jialei.png
             url: "/team/chen-jiawei/"
           - name: "Chen, Kang"
             role: "Ph.D."
-            image: assets/img/team/headimage.png
+            image: assets/img/team/chen-kang.jpg
             url: "/team/chen-kang/"
           - name: "Chen, Shuaihang"
             role: "Ph.D."
-            image: assets/img/team/headimage.png
+            image: assets/img/team/chen-shuaihang.jpg
             url: "/team/chen-shuaihang/"
           - name: "Dai, Tianao"
             role: "Ph.D."
@@ -156,7 +156,7 @@ en: &DEFAULT_EN
             url: "/team/dai-tianao/"
           - name: "Jiang, Zhennan"
             role: "Ph.D."
-            image: assets/img/team/headimage.png
+            image: assets/img/team/jiang-zhennan.jpg
             url: "/team/jiang-zhennan/"
           - name: "Li, Zhaoyi"
             role: "Ph.D."
@@ -168,11 +168,11 @@ en: &DEFAULT_EN
             url: "/team/yang-ke/"
           - name: "Yang, Xinye"
             role: "Ph.D."
-            image: assets/img/team/headimage.png
+            image: assets/img/team/yang-xinye.jpg
             url: "/team/yang-xinye/"
           - name: "Zhou, Tianxing"
             role: "Ph.D."
-            image: assets/img/team/headimage.png
+            image: assets/img/team/zhou-tianxing.jpg
             url: "/team/zhou-tianxing/"
       - name: "Interns"
         people:
@@ -354,19 +354,19 @@ es: &DEFAULT_ES
         people:
           - name: "Chen, Haolin"
             role: "Ph.D."
-            image: assets/img/team/headimage.png
+            image: assets/img/team/chen-haolin.jpg
             url: "/team/chen-haolin/"
           - name: "Chen, Jiawei"
             role: "Ph.D."
-            image: assets/img/team/headimage.png
+            image: assets/img/team/chen-jialei.png
             url: "/team/chen-jiawei/"
           - name: "Chen, Kang"
             role: "Ph.D."
-            image: assets/img/team/headimage.png
+            image: assets/img/team/chen-kang.jpg
             url: "/team/chen-kang/"
           - name: "Chen, Shuaihang"
             role: "Ph.D."
-            image: assets/img/team/headimage.png
+            image: assets/img/team/chen-shuaihang.jpg
             url: "/team/chen-shuaihang/"
           - name: "Dai, Tianao"
             role: "Ph.D."
@@ -374,7 +374,7 @@ es: &DEFAULT_ES
             url: "/team/dai-tianao/"
           - name: "Jiang, Zhennan"
             role: "Ph.D."
-            image: assets/img/team/headimage.png
+            image: assets/img/team/jiang-zhennan.jpg
             url: "/team/jiang-zhennan/"
           - name: "Li, Zhaoyi"
             role: "Ph.D."
