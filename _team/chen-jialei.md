@@ -3,7 +3,7 @@ layout: profile
 title: Jialei, Chen
 name: Jialei, Chen
 role: Ph.D.
-image: /assets/img/team/chenjialei.jpg
+image: /assets/img/team/chen-jialei.png
 permalink: /team/chenjialei/
 email: stjzn0410@gmail.com
 education:
