@@ -3,7 +3,7 @@ layout: profile
 title: Kang, Chen
 name: Kang, Chen
 role: Ph.D. Candidate
-image: chenkang.png
+image: /assets/img/team/chen-kang.jpg
 email: s-ck24@bjzgca.edu.cn
 education: 
   - degree: Ph.D. Candidate
