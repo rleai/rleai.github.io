@@ -158,10 +158,6 @@ en: &DEFAULT_EN
             role: "Ph.D."
             image: assets/img/team/jiang-zhennan.jpg
             url: "/team/jiang-zhennan/"
-          - name: "Li, Zhaoyi"
-            role: "Ph.D."
-            image: assets/img/team/headimage.png
-            url: "/team/li-zhaoyi/"
           - name: "Yang, Ke"
             role: "Ph.D."
             image: assets/img/team/headimage.png
@@ -376,10 +372,6 @@ es: &DEFAULT_ES
             role: "Ph.D."
             image: assets/img/team/jiang-zhennan.jpg
             url: "/team/jiang-zhennan/"
-          - name: "Li, Zhaoyi"
-            role: "Ph.D."
-            image: assets/img/team/headimage.png
-            url: "/team/li-zhaoyi/"
       - name: "Interns"
         people:
           - name: "Cheng, Yilin"
@@ -578,10 +570,6 @@ de: &DEFAULT_DE
             role: "Ph.D."
             image: assets/img/team/headimage.png
             url: "/team/jiang-zhennan/"
-          - name: "Li, Zhaoyi"
-            role: "Ph.D."
-            image: assets/img/team/headimage.png
-            url: "/team/li-zhaoyi/"
       - name: "Interns"
         people:
           - name: "Cheng, Yilin"
