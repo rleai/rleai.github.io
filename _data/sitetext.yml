@@ -140,8 +140,12 @@ en: &DEFAULT_EN
             url: "/team/chen-haolin/"
           - name: "Chen, Jiawei"
             role: "Ph.D."
-            image: assets/img/team/chen-jialei.png
+            image: assets/img/team/headimage.png
             url: "/team/chen-jiawei/"
+          - name: "Chen, Jialei"
+            role: "Ph.D."
+            image: assets/img/team/chen-jialei.png
+            url: "/team/chen-jialei/"
           - name: "Chen, Kang"
             role: "Ph.D."
             image: assets/img/team/chen-kang.jpg
@@ -354,8 +358,12 @@ es: &DEFAULT_ES
             url: "/team/chen-haolin/"
           - name: "Chen, Jiawei"
             role: "Ph.D."
-            image: assets/img/team/chen-jialei.png
+            image: assets/img/team/headimage.png
             url: "/team/chen-jiawei/"
+          - name: "Chen, Jialei"
+            role: "Ph.D."
+            image: assets/img/team/chen-jialei.png
+            url: "/team/chen-jialei/"
           - name: "Chen, Kang"
             role: "Ph.D."
             image: assets/img/team/chen-kang.jpg
