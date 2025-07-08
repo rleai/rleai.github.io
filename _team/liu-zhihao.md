@@ -26,7 +26,7 @@ research_areas:
 biography: |
   Welcome! I'm Liu Zhihao (刘志豪), a third-year Ph.D. student at the Institute of Automation, Chinese Academy of Sciences(CASIA), advised by Prof. Fan Gulling. Recently, I am about to join the joint training program at Zhongguancun Academy in Beijing, under the supervision of Prof. Yu Chao. 
 
-Currently my research focuses on  reinforcement learning, multi-agent system, and large language model agents. In the future, I will focus on research related to reinforcement learning and vision-language-action models and embodied intelligence.
+  Currently my research focuses on  reinforcement learning, multi-agent system, and large language model agents. In the future, I will focus on research related to reinforcement learning and vision-language-action models and embodied intelligence.
 
 publications:
   - title: "Knowing What Not to Do: Leverage Language Model Insights for Action Space Pruning in Multi-agent Reinforcement Learning"
@@ -55,5 +55,5 @@ social:
 contact:
   email: liuzhihao2022@ia.ac.cn
   github: https://github.com/LiuZhihao2022
----
 
+---
