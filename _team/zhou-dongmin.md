@@ -3,7 +3,7 @@ layout: profile
 title: Zhou, Dongmin
 name: Zhou, Dongmin
 role: Project Manager
-image: /assets/img/team/headimage.png
+image: /assets/img/team/zhou-dongmin.jpg
 email: v-zdm@zgci.ac.cn
 education: 
   - degree: Project Manager
