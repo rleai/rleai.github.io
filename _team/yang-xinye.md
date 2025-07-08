@@ -2,26 +2,33 @@
 layout: profile
 title: Yang, Xinye
 name: Yang, Xinye
-role: Ph.D.
+role: Ph.D. Candidate
 image: /assets/img/team/headimage.png
-permalink: /team/yang-xinye/
-email: yang.xinye@zgci.ac.cn
-education:
+email: s-yxy24@bjzgca.edu.cn
+education: 
   - degree: Ph.D. Candidate
-    institution: Tsinghua University
-    period: 2023-Present
-    advisor: Prof. XXX
-  - degree: M.Sc. in Computer Science
-    institution: Tsinghua University
-    period: 2020-2023
-  - degree: B.Sc. in Computer Science
-    institution: Tsinghua University
-    period: 2016-2020
+    institution: Zhongguancun Academy & Fudan University
+    period: 2024-Present
+    advisor: Prof. ChaoYu & Prof. WeiLi
+  - degree: B.E. in Communication Engineering
+    institution: Fudan University
+    period: 2020-2024
+
 research_areas:
-  - Reinforcement Learning
-  - Machine Learning
   - Artificial Intelligence
   - Embodied AI
+
 biography: |
-  Yang Xinye is a Ph.D. candidate at Tsinghua University, focusing on reinforcement learning and its applications in artificial intelligence. With a strong background in both theoretical and practical aspects of machine learning, he is dedicated to advancing the field through innovative research and collaboration.
+  Xinye Yang is a Ph.D. candidate jointly at Zhongguancun Academy and Fudan University, focusing on artificial intelligence with a specialized interest in embodied AI. With solid academic foundation, he is committed to exploring the integration of theoretical AI frameworks and real-world embodied systems through rigorous research.
+
+  His research interests include:
+
+  Artificial Intelligence
+  Embodied AI
+
+  He actively engages in cutting-edge research projects at the intersection of these fields, aiming to contribute innovative insights to the advancement of AI technology.
+
+contact:
+  email: s-yxy24@bjzgca.com
+  github: https://github.com/yxy-2002
 --- 

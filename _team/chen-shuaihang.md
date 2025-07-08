@@ -1,74 +1,93 @@
 ---
 layout: profile
-title: Chen, Shuaihang
-name: Chen, Shuaihang
-role: Ph.D.
+title: Chen, Haolin
+name: Chen, Haolin
+role: Project Manager & Ph.D. Candidate
 image: /assets/img/team/headimage.png
-permalink: /team/chen-shuaihang/
-email: chen.shuaihang@zgci.ac.cn
-education:
-  - degree: Ph.D. Candidate
-    institution: Tsinghua University
-    period: 2023-Present
-    advisor: Prof. Yu Chao
-    major: Computer Science
-  - degree: M.Sc. in Computer Science
-    institution: Tsinghua University
-    period: 2020-2023
-    major: Artificial Intelligence
-    thesis: "Reinforcement Learning for Robotics Control"
-  - degree: B.Sc. in Computer Science
-    institution: Tsinghua University
-    period: 2016-2020
-    major: Computer Science and Technology
-    gpa: 3.7/4.0
+email: s-chensh24@bjzgca.edu.cn
+education: 
+  - degree: Ph.D. student
+    institution: HIT
+    period: 2024-Present
+    advisor: Prof. Weinan Zhang and Yu Chao
+  - degree: B.Sc. in Software Engineering
+    institution: HIT
+    period: 2020-2024
 
 research_areas:
-  - Deep Reinforcement Learning
-  - Robotics Control
-  - Embodied AI
-  - Computer Vision
-  - Human-Robot Interaction
-  - Real-time Systems
+  - Reinforcement Learning for Multi-embodied Agent
 
 biography: |
-  Chen Shuaihang is a Ph.D. candidate at Tsinghua University, focusing on reinforcement learning and its applications in robotics and artificial intelligence. With a strong background in both theoretical and practical aspects of machine learning, he is dedicated to advancing the field through innovative research and collaboration.
+  Chen Shuaihang is a Ph.D. student at HIT, focusing on Reinforcement Learning for Multi-embodied Agent.
 
-  His research interests span across multiple domains:
-  - Deep Reinforcement Learning: Developing novel algorithms for robotic control
-  - Robotics: Investigating advanced control strategies for complex robotic systems
-  - Embodied AI: Exploring the integration of AI with physical robots
-  - Computer Vision: Creating robust vision systems for robotic applications
+  His research interests include:
+  - Multi-agent Systems
+  - Embodied AI
+  - Human-AI Interaction
 
-  He has published several papers in top-tier conferences and journals, including ICRA, IROS, and T-RO. His work has been recognized for its practical impact in robotics and automation.
+
 
 publications:
-  - title: "Deep Reinforcement Learning for Robotic Manipulation"
-    authors: "Chen, S., Wang, X., & Liu, Y."
-    venue: "ICRA 2023"
-    year: 2023
-    doi: "10.1234/icra.2023.001"
-    pdf: "/assets/papers/chen2023deep.pdf"
-    abstract: "This paper presents a novel approach to robotic manipulation using deep reinforcement learning, focusing on precision and adaptability."
-    citation: "Chen, S., et al. (2023). Deep Reinforcement Learning for Robotic Manipulation. IEEE International Conference on Robotics and Automation."
+  - title: "A Survey on LLM-based Multi-Agent System: Recent Advances and New Frontiers in Application"
+    authors: "Shuaihang Chen, Yuanxing Liu, Wei Han, Weinan Zhang, Ting Liu"
+    # venue: "Journal of Machine Learning Research"
+    year: 2024
+    # doi: "10.1234/jmlr.2023.001"
+    # pdf: "/assets/papers/chen2023novel.pdf"
+    abstract: "LLM-based Multi-Agent Systems
+(LLM-MAS) have become a research
+hotspot since the rise of large language
+models (LLMs). However, with the continuous
+influx of new related works, the existing
+reviews struggle to capture them comprehensively. This paper presents a comprehensive
+survey of these studies. We first discuss
+the definition of LLM-MAS, a framework
+encompassing much of previous work. We
+provide an overview of the various applications
+of LLM-MAS in (i) solving complex tasks,
+(ii) simulating specific scenarios, and (iii)
+evaluating generative agents. Building on
+previous studies, we also highlight several
+challenges and propose future directions for
+research in this field."
+    # citation: "Chen, H., et al. (2023). A Novel Approach to Reinforcement Learning in Dynamic Environments. Journal of Machine Learning Research, 24(1), 1-20."
 
-  - title: "Real-time Control of Robotic Systems using Reinforcement Learning"
-    authors: "Chen, S., & Zhang, L."
-    venue: "IROS 2022"
-    year: 2022
-    doi: "10.1234/iros.2022.002"
-    pdf: "/assets/papers/chen2022real.pdf"
-    abstract: "We propose a new framework for real-time control of robotic systems using reinforcement learning, demonstrating significant improvements in performance and reliability."
-    citation: "Chen, S., & Zhang, L. (2022). Real-time Control of Robotic Systems using Reinforcement Learning. IEEE/RSJ International Conference on Intelligent Robots and Systems."
+  # - title: "Deep Reinforcement Learning for Complex Decision Making"
+  #   authors: "Chen, H., & Chen, Y."
+  #   venue: "Neural Computing and Applications"
+  #   year: 2022
+  #   doi: "10.1234/nca.2022.002"
+  #   pdf: "/assets/papers/chen2022deep.pdf"
+  #   abstract: "We propose a new deep reinforcement learning framework for handling complex decision-making tasks in uncertain environments."
+  #   citation: "Chen, H., & Chen, Y. (2022). Deep Reinforcement Learning for Complex Decision Making. Neural Computing and Applications, 34(2), 123-145."
 
-social:
-  - platform: Google Scholar
-    url: https://scholar.google.com/citations?user=chenshuaihang
-    icon: fas fa-graduation-cap
-  - platform: GitHub
-    url: https://github.com/chenshuaihang
-    icon: fab fa-github
-  - platform: LinkedIn
-    url: https://linkedin.com/in/chenshuaihang
-    icon: fab fa-linkedin
+# projects:
+#   - name: "Embodied AI Research Platform"
+#     description: "Developing a comprehensive platform for embodied AI research, focusing on real-world applications."
+#     period: "2023-Present"
+#     role: "Lead Developer"
+#     status: "Ongoing"
+
+#   - name: "Multi-agent Reinforcement Learning Framework"
+#     description: "A framework for studying and implementing multi-agent reinforcement learning algorithms."
+#     period: "2022-2023"
+#     role: "Researcher"
+#     status: "Completed"
+
+# awards:
+#   - name: "Best Paper Award"
+#     organization: "International Conference on Machine Learning"
+#     year: 2023
+#     description: "For outstanding contribution to reinforcement learning research"
+
+#   - name: "Research Excellence Award"
+#     organization: "Tsinghua University"
+#     year: 2022
+#     description: "For exceptional research performance in AI"
+
+contact:
+  email: s-chensh24@bjzgca.edu.cn
+  github: https://github.com/bianhua-12
+  # linkedin: https://linkedin.com/in/chen-haolin
+  google_scholar: https://scholar.google.com/citations?hl=zh-CN&user=mvKthu0AAAAJ
 --- 

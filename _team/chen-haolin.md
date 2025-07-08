@@ -2,84 +2,101 @@
 layout: profile
 title: Chen, Haolin
 name: Chen, Haolin
-role: Project Manager & Ph.D. Candidate
+role: Ph.D. Candidate
 image: /assets/img/team/headimage.png
-email: v-chh@zgci.ac.cn
+email: s-chl25@bjzgca.edu.cn
 education: 
-  - degree: Ph.D. Candidate
-    institution: Tsinghua University
+  - degree: Ph.D. Candidate in Mechanical Engineering
+    institution: Beijing Institute of Technology
     period: 2023-Present
-    advisor: Prof. XXX
-  - degree: M.Sc. in Computer Science
-    institution: Tinghua University
+    advisor: Prof. Xu Bin
+  - degree: M.Sc. in Electronic Information
+    institution: University of Electronic Science and Technology of China
     period: 2020-2023
-  - degree: B.Sc. in Computer Science
-    institution: Tsinghua 
-    period: 2016-2020
+  - degree: B.Sc. in Communication Engineering
+    institution: Anhui Jianzhu University
+    period: 2015-2019
 
 research_areas:
-  - Reinforcement Learning
-  - Machine Learning
-  - Artificial Intelligence
-  - Embodied AI
+  - Embodied Intelligence
+  - Real2Sim2Real
+  - SLAM (Simultaneous Localization and Mapping)
+  - Autonomous Navigation
 
-biography: |
-  Chen Haolin is a Ph.D. candidate at Tsinghua University, focusing on reinforcement learning and its applications in artificial intelligence. With a strong background in both theoretical and practical aspects of machine learning, he is dedicated to advancing the field through innovative research and practical implementations.
+
+biography:
+  Chen Haolin is a Ph.D. candidate at Beijing Institute of Technology, focusing on embodied intelligence, Real2Sim2Real, SLAM, and autonomous navigation. With a strong background in mechanical engineering, electronic information, and communication engineering, he possesses excellent engineering capabilities and is dedicated to advancing the field through innovative research and practical implementations.
 
   His research interests include:
+  - Embodied Intelligence
+  - SLAM (Simultaneous Localization and Mapping)
+  - Autonomous Navigation
   - Deep Reinforcement Learning
-  - Multi-agent Systems
-  - Embodied AI
-  - Human-AI Interaction
+  - Autonomous Driving
+  - Autonomous UAV
 
-  He has published several papers in top-tier conferences and journals, and is actively involved in various research projects at the intersection of reinforcement learning and artificial intelligence.
 
 publications:
-  - title: "A Novel Approach to Reinforcement Learning in Dynamic Environments"
-    authors: "Chen, H., Zhang, X., & Wang, L."
-    venue: "Journal of Machine Learning Research"
-    year: 2023
-    doi: "10.1234/jmlr.2023.001"
-    pdf: "/assets/papers/chen2023novel.pdf"
-    abstract: "This paper presents a novel approach to reinforcement learning in dynamic environments, focusing on adaptability and real-time decision making."
-    citation: "Chen, H., et al. (2023). A Novel Approach to Reinforcement Learning in Dynamic Environments. Journal of Machine Learning Research, 24(1), 1-20."
+  - title: 
+    authors: 
+    venue: 
+    year:
+    doi:
+    pdf:
+    abstract:
+    citation:
 
-  - title: "Deep Reinforcement Learning for Complex Decision Making"
-    authors: "Chen, H., & Chen, Y."
-    venue: "Neural Computing and Applications"
-    year: 2022
-    doi: "10.1234/nca.2022.002"
-    pdf: "/assets/papers/chen2022deep.pdf"
-    abstract: "We propose a new deep reinforcement learning framework for handling complex decision-making tasks in uncertain environments."
-    citation: "Chen, H., & Chen, Y. (2022). Deep Reinforcement Learning for Complex Decision Making. Neural Computing and Applications, 34(2), 123-145."
 
 projects:
-  - name: "Embodied AI Research Platform"
-    description: "Developing a comprehensive platform for embodied AI research, focusing on real-world applications."
-    period: "2023-Present"
-    role: "Lead Developer"
-    status: "Ongoing"
-
-  - name: "Multi-agent Reinforcement Learning Framework"
-    description: "A framework for studying and implementing multi-agent reinforcement learning algorithms."
-    period: "2022-2023"
+  - name: "Sub-Mother UAV Autonomous Release and Recovery Project"
+    description: "National Key Laboratory project focusing on autonomous landing using QR code and laser positioning algorithms, achieving <10cm accuracy. Successfully achieved multi-UAV autonomous landing under mother UAV hovering state."
+    period: "2023.11-2024.05"
     role: "Researcher"
+    institution: "Beijing Institute of Technology, Key Laboratory of Intelligent Unmanned System Technology"
     status: "Completed"
 
-awards:
-  - name: "Best Paper Award"
-    organization: "International Conference on Machine Learning"
-    year: 2023
-    description: "For outstanding contribution to reinforcement learning research"
+  - name: "Land-Air Amphibious Robot Autonomous Planning Project"
+    description: "Developed visual positioning and environment modeling algorithms, implemented land-air integrated planning for quad-rotor amphibious robot."
+    period: "2021.10-2022.02"
+    role: "Researcher"
+    institution: "Zhejiang University Huzhou Institute, FAST-Lab"
+    status: "Completed"
 
-  - name: "Research Excellence Award"
-    organization: "Tsinghua University"
+
+awards:
+  - name: "Gold Medal (First Place)"
+    organization: "2024 World Intelligent Driving Challenge"
+    year: 2024
+    description: "Outstanding performance in intelligent driving competition"
+
+  - name: "Top 100 Entrepreneurship Teams"
+    organization: "Second Beijing University Student Innovation and Entrepreneurship Competition"
+    year: 2023
+    description: "Recognition for innovative entrepreneurship projects"
+
+  - name: "First Prize (Beijing Division)"
+    organization: "Ninth China International 'Internet+' University Student Innovation and Entrepreneurship Competition"
+    year: 2023
+    description: "Excellence in innovation and entrepreneurship"
+
+  - name: "Third Prize (Chengdu-Chongqing Division)"
+    organization: "Huawei Software Elite Challenge"
     year: 2022
-    description: "For exceptional research performance in AI"
+    description: "Outstanding performance in software development competition"
+
+  - name: "Provincial First Prize"
+    organization: "Anhui Provincial University IoT Application Innovation Competition"
+    year: 2018
+    description: "Excellence in IoT application development"
+
+  - name: "Provincial First Prize"
+    organization: "Anhui Provincial Robot Challenge"
+    year: 2018
+    description: "Outstanding performance in robotics competition"
 
 contact:
-  email: v-chh@zgci.ac.cn
-  github: https://github.com/chen-haolin
-  linkedin: https://linkedin.com/in/chen-haolin
-  google_scholar: https://scholar.google.com/citations?user=chen-haolin
+  email: s-chl25@bjzgca.edu.cn
+  github: https://github.com/haolin11
+  linkedin: 
+  google_scholar: 
 --- 

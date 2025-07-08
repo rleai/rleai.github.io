@@ -3,72 +3,53 @@ layout: profile
 title: Jiang, Zhennan
 name: Jiang, Zhennan
 role: Ph.D.
-image: /assets/img/team/headimage.png
+image: /assets/img/team/jiangzhennan.jpg
 permalink: /team/jiang-zhennan/
-email: jiang.zhennan@zgci.ac.cn
+email: stjzn0410@gmail.com
 education:
   - degree: Ph.D. Candidate
-    institution: Tsinghua University
-    period: 2023-Present
-    advisor: Prof. Yu Chao
+    institution:  Zhongguancun Academy & Insitute of Automation, Chinese Academy of Sciences
+    period: 2024-Present
+    advisor: Prof. Yu Chao & Prof. Zhao Dongbin & Prof. Li Haoran
     major: Computer Science
-  - degree: M.Sc. in Computer Science
-    institution: Tsinghua University
-    period: 2020-2023
-    major: Artificial Intelligence
-    thesis: "Deep Reinforcement Learning for Natural Language Processing"
-  - degree: B.Sc. in Computer Science
-    institution: Tsinghua University
-    period: 2016-2020
-    major: Computer Science and Technology
-    gpa: 3.8/4.0
+  - degree: B.Sc. 
+    institution: Central South University
+    period: 2020-2024
+    major: Automation
+    rank: 1/240
 
 research_areas:
   - Deep Reinforcement Learning
-  - Natural Language Processing
-  - Machine Learning
-  - Human-AI Interaction
-  - Knowledge Representation
-  - Dialogue Systems
+  - Embodied AI
+  - Deep Generative Model
 
 biography: |
-  Jiang Zhennan is a Ph.D. candidate at Tsinghua University, focusing on reinforcement learning and its applications in natural language processing. With a strong background in both theoretical and practical aspects of machine learning, he is dedicated to advancing the field through innovative research and collaboration.
+  Welcome! I’m Jiang Zhennan (江震南), a first-year Ph.D. student in Technology for Computer Applications at the Institute of Automation, Chinese Academy of Sciences (CASIA). I am fortunate to have Prof. Zhao Dongbin (IEEE Fellow) as my chief supervisor, alongside Dr. Li Haoran as my co-supervisor. Currently, I am also undergoing joint training at Zhongguancun Academy, under the mentorship of Prof. Yu Chao.
 
-  His research interests span across multiple domains:
-  - Natural Language Processing: Developing novel algorithms for language understanding and generation
-  - Deep Reinforcement Learning: Creating new methods for learning from human feedback
-  - Human-AI Interaction: Designing more natural and effective communication systems
-  - Knowledge Representation: Building better ways to represent and utilize knowledge in AI systems
-
-  He has published several papers in top-tier conferences and journals, including ACL, EMNLP, and NeurIPS. His work has been recognized for its contributions to natural language processing and human-AI interaction.
+  My research interests currently focus on reinforcement learning and robotics. In the future, I aim to delve into embodied intelligence technologies and their applications.
 
 publications:
-  - title: "Reinforcement Learning for Natural Language Generation"
-    authors: "Jiang, Z., Wang, X., & Chen, Y."
-    venue: "ACL 2023"
-    year: 2023
-    doi: "10.1234/acl.2023.001"
-    pdf: "/assets/papers/jiang2023reinforcement.pdf"
-    abstract: "This paper presents a novel approach to natural language generation using reinforcement learning, focusing on quality and diversity."
-    citation: "Jiang, Z., et al. (2023). Reinforcement Learning for Natural Language Generation. Annual Meeting of the Association for Computational Linguistics."
-
-  - title: "Human-in-the-Loop Learning for Dialogue Systems"
-    authors: "Jiang, Z., & Liu, M."
-    venue: "EMNLP 2022"
-    year: 2022
-    doi: "10.1234/emnlp.2022.002"
-    pdf: "/assets/papers/jiang2022human.pdf"
-    abstract: "We propose a new framework for incorporating human feedback in dialogue system training, demonstrating significant improvements in system performance."
-    citation: "Jiang, Z., & Liu, M. (2022). Human-in-the-Loop Learning for Dialogue Systems. Conference on Empirical Methods in Natural Language Processing."
+  - title: "Generalizing Consistency Policy to Visual RL with Prioritized Proximal Experience Regularization"
+    authors: "Haoran Li, Zhennan Jiang, Yuhui Chen, and Dongbin Zhao"
+    venue: "NeurIPS 2024"
+    year: 2024
+    abstract: "With high-dimensional state spaces, visual reinforcement learning (RL) faces significant challenges in exploitation and exploration, resulting in low sample efficiency and training stability. As a time-efficient diffusion model, although consistency models have been validated in online state-based RL, it is still an open question whether it can be extended to visual RL. In this paper, we investigate the impact of non-stationary distribution and the actor-critic framework on consistency policy in online RL, and find that consistency policy was unstable during the training, especially in visual RL with the high-dimensional state space. To this end, we suggest sample-based entropy regularization to stabilize the policy training, and propose a consistency policy with prioritized proximal experience regularization (CP3ER) to improve sample efficiency. CP3ER achieves new state-of-the-art (SOTA) performance in 21 tasks across DeepMind control suite and Meta-world. To our knowledge, CP3ER is the first method to apply diffusion/consistency models to visual RL and demonstrates the potential of consistency models in visual RL."
+    citation: "Li, H., Jiang, Z., Chen, Y., & Zhao, D. (2024). Generalizing consistency policy to visual RL with prioritized proximal experience regularization. In Proceedings of the Thirty-eighth Annual Conference on Neural Information Processing Systems (NeurIPS 2024)."
 
 social:
   - platform: Google Scholar
-    url: https://scholar.google.com/citations?user=jiangzhennan
+    url: https://scholar.google.com/citations?user=-AHCSxIAAAAJ&hl=en
     icon: fas fa-graduation-cap
   - platform: GitHub
-    url: https://github.com/jiangzhennan
+    url: https://github.com/jzndd
     icon: fab fa-github
   - platform: LinkedIn
-    url: https://linkedin.com/in/jiangzhennan
+    url: https://www.linkedin.com/in/%E9%9C%87%E5%8D%97-%E6%B1%9F-012809309/
     icon: fab fa-linkedin
+
+contact:
+  email: stjzn0410@gmail.com
+  github: https://github.com/jzndd
+  linkedin: https://www.linkedin.com/in/%E9%9C%87%E5%8D%97-%E6%B1%9F-012809309/
+  google_scholar: https://scholar.google.com/citations?user=-AHCSxIAAAAJ&hl=en
 --- 
