@@ -128,7 +128,7 @@ en: &DEFAULT_EN
         people:
           - name: "Zhou, Dongmin"
             role: "PM"
-            image: assets/img/team/headimage.png
+            image: assets/img/team/zhou-dongmin.jpg
             url: /team/zhou-dongmin
       - name: "Engineer"
         people: []
@@ -346,7 +346,7 @@ es: &DEFAULT_ES
         people:
           - name: "Zhou, Dongmin"
             role: "PM"
-            image: assets/img/team/headimage.png
+            image: assets/img/team/zhou-dongmin.jpg
             url: /team/zhou-dongmin
       - name: "Engineer"
         people: []
