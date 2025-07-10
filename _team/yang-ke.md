@@ -3,12 +3,12 @@ layout: profile
 title: Yang, Ke
 name: Yang, Ke
 role: Ph.D.
-image: /assets/img/team/headimage.png
+image: /assets/img/team/YangKe.jpg
 permalink: /team/yang-ke/
 email: yangke_1427@163.com
 education:
   - degree: Ph.D. Candidate in Electronic Information
-    institution: Harbin Institute of Technology
+    institution: Harbin Institute of Technology (ShenZhen)
     period: 20243-Present
     advisor: Prof. Xu Yong
 
@@ -22,20 +22,18 @@ education:
 
 
 research_areas:
-  - Deep Reinforcement Learning
+  - Reinforcement Learning Training Frameworks
   - Multi-Task Learning
   - Multi-modal Image Fusion
   - Object Detection
 
 
 biography: |
-  Yang Ke is a Ph.D. candidate at Tsinghua University, focusing on reinforcement learning and its applications in game AI. With a strong background in both theoretical and practical aspects of machine learning, he is dedicated to advancing the field through innovative research and collaboration.
-
-  His research interests span across multiple domains:
-  - Game AI: Developing novel algorithms for game playing and strategy
-  - Deep Reinforcement Learning: Creating new methods for complex decision-making
-  - Multi-Agent Systems: Investigating cooperative and competitive behaviors
-  - Human-AI Interaction: Designing engaging and challenging game experiences
+  Yang Ke is a Ph.D. candidate at the Harbin Institute of Technology, Shenzhen. His doctoral research focuses on Embodied Intelligence and Reinforcement Learning Training Frameworks. During his Master’s studies, he conducted research in computer vision, specializing in Multimodal Image Fusion and Object Detection.He possesses a solid foundation in deep learning and strong engineering capabilities, and is dedicated to advancing the field through innovative research and practical implementations.
+His research interests span across multiple domains:
+  - Reinforcement Learning Training Frameworks
+  - Multi-Task Learning
+  - Multi-modal Image Fusion
 
 
 
