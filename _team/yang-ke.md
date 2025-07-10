@@ -29,11 +29,11 @@ research_areas:
 
 
 biography: |
-  Yang Ke is a Ph.D. candidate at the Harbin Institute of Technology, Shenzhen. His doctoral research focuses on Embodied Intelligence and Reinforcement Learning Training Frameworks. During his Master’s studies, he conducted research in computer vision, specializing in Multimodal Image Fusion and Object Detection.He possesses a solid foundation in deep learning and strong engineering capabilities, and is dedicated to advancing the field through innovative research and practical implementations.
-His research interests span across multiple domains:
-  - Reinforcement Learning Training Frameworks
-  - Multi-Task Learning
-  - Multi-modal Image Fusion
+  Yang Ke is a Ph.D. candidate at the Harbin Institute of Technology, Shenzhen. His doctoral research focuses on Embodied Intelligence and Reinforcement Learning Training Frameworks. During his Master’s studies, he conducted research in computer vision, specializing in Multimodal Image Fusion and Object Detection.
+  His research interests span across multiple domains:
+    - Reinforcement Learning Training Frameworks
+    - Multi-Task Learning
+    - Multi-modal Image Fusion
 
 
 
