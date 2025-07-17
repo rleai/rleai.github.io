@@ -140,7 +140,7 @@ en: &DEFAULT_EN
             url: "/team/chen-haolin/"
           - name: "Chen, Jiawei"
             role: "Ph.D candidate"
-            image: assets/img/team/headimage.png
+            image: assets/img/team/chen-jiawei.jpg
             url: "/team/chen-jiawei/"
           - name: "Chen, Jialei"
             role: "Ph.D candidate"
@@ -178,6 +178,10 @@ en: &DEFAULT_EN
             role: "Ph.D candidate"
             image: assets/img/team/liu-zhihao.png
             url: "/team/liu-zhihao/"
+          - name: "Wei, Mingjie"
+            role: "Ph.D candidate"
+            image: assets/img/team/wei-mingjie.jpg
+            url: "/team/wei-mingjie/"
       - name: "Interns"
         people:
           - name: "Gao, Feng"
@@ -368,6 +372,10 @@ es: &DEFAULT_ES
             role: "Ph.D."
             image: assets/img/team/jiang-zhennan.jpg
             url: "/team/jiang-zhennan/"
+          - name: "Wei, Mingjie"
+            role: "Ph.D."
+            image: assets/img/team/wei-mingjie.jpg
+            url: "/team/wei-mingjie/"
       - name: "Interns"
         people:
           - name: "Gao, Feng"
@@ -552,34 +560,18 @@ de: &DEFAULT_DE
             url: "/team/jiang-zhennan/"
       - name: "Interns"
         people:
-          - name: "Cheng, Yilin"
-            role: "Intern"
-            image: assets/img/team/headimage.png
-            url: "/team/cheng-yilin/"
-          - name: "Cui, Jingzhi"
-            role: "Intern"
-            image: assets/img/team/headimage.png
-            url: "/team/cui-jingzhi/"
           - name: "Gao, Feng"
             role: "Intern"
             image: assets/img/team/headimage.png
             url: "/team/gao-feng/"
-          - name: "Mu, Mo"
+          - name: "Wang, Yukun"
             role: "Intern"
             image: assets/img/team/headimage.png
-            url: "/team/mu-mo/"
-          - name: "Ouyang, Yutao"
+            url: "/team/wang-yukun/"
+          - name: "Zhang, Tonghe"
             role: "Intern"
             image: assets/img/team/headimage.png
-            url: "/team/ouyang-yutao/"
-          - name: "Yin, Cheng"
-            role: "Intern"
-            image: assets/img/team/headimage.png
-            url: "/team/yin-cheng/"
-          - name: "Zhang, Pengwei"
-            role: "Intern"
-            image: assets/img/team/headimage.png
-            url: "/team/zhang-pengwei/"
+            url: "/team/zhang-tonghe/"
 
   contact:
     title: "Kontakt"
