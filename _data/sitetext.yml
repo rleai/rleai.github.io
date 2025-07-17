@@ -346,7 +346,7 @@ es: &DEFAULT_ES
             url: "/team/chen-haolin/"
           - name: "Chen, Jiawei"
             role: "Ph.D."
-            image: assets/img/team/headimage.png
+            image: assets/img/team/chen-jiawei.jpg
             url: "/team/chen-jiawei/"
           - name: "Chen, Jialei"
             role: "Ph.D."
