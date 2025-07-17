@@ -22,11 +22,11 @@ research_areas:
   - Vision Language Action Model (VLA)
 
 biography: |
-  "Wei Mingjie is currently a Ph.D. student jointly trained by Harbin Institute of Technology (HIT) and Zhongguancun Academy (bjzgca), enrolled in the Fall of 2025. I’m supervised by [Prof. Yu Chao](https://scholar.google.com.hk/citations?hl=en&user=BYoq_bwAAAAJ) and [Prof. Zhang Weinan](https://scholar.google.com/citations?user=DBLdEf4AAAAJ&hl=zh-CN). My primary research interests include Embodied Intelligence, Large Vision Large Models, Reinforcement Learning, and Vision-Language-Action model.
+  Wei Mingjie is currently a Ph.D. student jointly trained by Harbin Institute of Technology (HIT) and Zhongguancun Academy (bjzgca), enrolled in the Fall of 2025. I’m supervised by [Prof. Yu Chao](https://scholar.google.com.hk/citations?hl=en&user=BYoq_bwAAAAJ) and [Prof. Zhang Weinan](https://scholar.google.com/citations?user=DBLdEf4AAAAJ&hl=zh-CN). My primary research interests include Embodied Intelligence, Large Vision Large Models, Reinforcement Learning, and Vision-Language-Action model.
 
-I will start my studies at bjzgca in September this year. From the Fall of 2023 to the Summer of 2025, I have served as the team leader (collaborating with [SCIR](https://ir.hit.edu.cn/) Lab at HIT, [State Key Laboratory of Robotics and Systems](https://robot.hit.edu.cn/#) at HIT, and [Shenzhen Leju Robot](https://www.lejurobot.com/zh)) to develop an Intelligent Service Robot for Exhibition/Hall scenario, which are currently operational in several exhibition halls.
+  I will start my studies at bjzgca in September this year. From the Fall of 2023 to the Summer of 2025, I have served as the team leader (collaborating with [SCIR](https://ir.hit.edu.cn/) Lab at HIT, [State Key Laboratory of Robotics and Systems](https://robot.hit.edu.cn/#) at HIT, and [Shenzhen Leju Robot](https://www.lejurobot.com/zh)) to develop an Intelligent Service Robot for Exhibition/Hall scenario, which are currently operational in several exhibition halls.
 
-I have previously completed a research internship at Li Auto and served as a research assistant (RA) at the Chinese University of Hong Kong, Shenzhen. Regarding academic publications, I have authored two papers published in CCF A-level conferences, with an additional survey paper on Embodied Intelligence currently under journal review."
+  I have previously completed a research internship at Li Auto and served as a research assistant (RA) at the Chinese University of Hong Kong, Shenzhen. Regarding academic publications, I have authored two papers published in CCF A-level conferences, with an additional survey paper on Embodied Intelligence currently under journal review.
 
 publications:
   - title: "PRISM: A Benchmark for Unveiling Cross-modal Knowledge Inconsistency in Large Vision-Language Models"
