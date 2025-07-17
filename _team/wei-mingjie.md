@@ -29,7 +29,7 @@ biography: |
   I have previously completed research internships at Li Auto and served as a research assistant (RA) at the Chinese University of Hong Kong, Shenzhen. Regarding academic publications, he has authored two papers published in CCF A-level conferences, with an additional survey paper on embodied intelligence currently under journal review.
 
 publications:
-  - title: PRISM: A Benchmark for Unveiling Cross-modal Knowledge Inconsistency in Large Vision-Language Models
+  - title: "PRISM: A Benchmark for Unveiling Cross-modal Knowledge Inconsistency in Large Vision-Language Models"
     authors: **Mingjie Wei**, Wei-Nan Zhang, Chen Zhang, Yifeng Ding, Donglin Di, Lei Ren, Wei Chen, Ting Liu
     venue: ACM Multimedia 2025
     year: 2025
@@ -37,7 +37,7 @@ publications:
     pdf: null
     abstract: null
     citation: null
-  - title: LLaPa: A Vision-Language Model Framework for Counterfactual-Aware Procedural Planning
+  - title: "LLaPa: A Vision-Language Model Framework for Counterfactual-Aware Procedural Planning"
     authors: Shibo Sun, Xue Li, Donglin Di, **Mingjie Wei**, Lanshun Nie, Wei-Nan Zhang, Dechen Zhan, Yang Song, Lei Fan
     venue: ACM Multimedia 2025
     year: 2025
