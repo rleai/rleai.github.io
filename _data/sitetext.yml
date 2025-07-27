@@ -154,10 +154,6 @@ en: &DEFAULT_EN
             role: "Ph.D candidate"
             image: assets/img/team/chen-shuaihang.jpg
             url: "/team/chen-shuaihang/"
-          - name: "Dai, Tianao"
-            role: "Ph.D candidate"
-            image: assets/img/team/headimage.png
-            url: "/team/dai-tianao/"
           - name: "Jiang, Zhennan"
             role: "Ph.D candidate"
             image: assets/img/team/jiang-zhennan.jpg
@@ -364,10 +360,6 @@ es: &DEFAULT_ES
             role: "Ph.D."
             image: assets/img/team/chen-shuaihang.jpg
             url: "/team/chen-shuaihang/"
-          - name: "Dai, Tianao"
-            role: "Ph.D."
-            image: assets/img/team/headimage.png
-            url: "/team/dai-tianao/"
           - name: "Jiang, Zhennan"
             role: "Ph.D."
             image: assets/img/team/jiang-zhennan.jpg
@@ -550,10 +542,6 @@ de: &DEFAULT_DE
             role: "Ph.D."
             image: assets/img/team/headimage.png
             url: "/team/chen-shuaihang/"
-          - name: "Dai, Tianao"
-            role: "Ph.D."
-            image: assets/img/team/headimage.png
-            url: "/team/dai-tianao/"
           - name: "Jiang, Zhennan"
             role: "Ph.D."
             image: assets/img/team/headimage.png
