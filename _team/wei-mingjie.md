@@ -22,11 +22,11 @@ research_areas:
   - Vision Language Action Model (VLA)
 
 biography: |
-  Wei Mingjie is currently a Ph.D. student jointly trained by Harbin Institute of Technology (HIT) and Zhongguancun Academy (bjzgca), enrolled in the Fall of 2025. I’m supervised by [Prof. Yu Chao](https://scholar.google.com.hk/citations?hl=en&user=BYoq_bwAAAAJ) and [Prof. Zhang Weinan](https://scholar.google.com/citations?user=DBLdEf4AAAAJ&hl=zh-CN). My primary research interests include Embodied Intelligence, Large Vision Large Models, Reinforcement Learning, and Vision-Language-Action model.
+  Wei Mingjie is currently a Ph.D. student jointly trained by the **Harbin Institute of Technology (HIT)** and the **Zhongguancun Academy (BJZGCA)**, enrolled in the Fall 2025 cohort under the supervision of  [Prof. Yu Chao](https://scholar.google.com.hk/citations?hl=en&user=BYoq_bwAAAAJ) and [Prof. Zhang Weinan](https://scholar.google.com/citations?user=DBLdEf4AAAAJ&hl=zh-CN). His primary research interests lie in **Embodied Intelligence**, **Large Vision-Language Models**, **Reinforcement Learning**, and **Vision-Language-Action (VLA) models**.
 
-  I will start my studies at bjzgca in September this year. From the Fall of 2023 to the Summer of 2025, I have served as the team leader (collaborating with [SCIR](https://ir.hit.edu.cn/) Lab at HIT, [State Key Laboratory of Robotics and Systems](https://robot.hit.edu.cn/#) at HIT, and [Shenzhen Leju Robot](https://www.lejurobot.com/zh)) to develop an Intelligent Service Robot for Exhibition/Hall scenario, which are currently operational in several exhibition halls.
+  Starting in **September 2025**, he commenced his doctoral studies at BJZGCA. From **Fall 2023 to Summer 2025**, he led a collaborative team involving the [SCIR Lab](https://ir.hit.edu.cn/), [State Key Laboratory of Robotics and Systems](https://robot.hit.edu.cn/#) at HIT, and Shenzhen Leju Robot Co., developing an intelligent service robot for exhibition and hall environments — systems that are now deployed in several exhibition venues.
 
-  I have previously completed a research internship at Li Auto and served as a research assistant (RA) at the Chinese University of Hong Kong, Shenzhen. Regarding academic publications, I have authored two papers published in CCF A-level conferences, with an additional survey paper on Embodied Intelligence currently under journal review.
+  He previously completed a research internship at Li Auto and served as a Research Assistant at the Chinese University of Hong Kong, Shenzhen. Academically, he has authored two papers accepted to ACM MM 2025, along with a survey paper on Embodied Intelligence published in the robotics journal _SmartBot_. Recently, he has also joined the RLinf project — an open research effort by Infini Inc., BJZGCA, and Tsinghua University — contributing to the development of advanced reinforcement learning algorithms.
 
 publications:
   - title: "PRISM: A Benchmark for Unveiling Cross-modal Knowledge Inconsistency in Large Vision-Language Models"
@@ -58,5 +58,5 @@ contact:
   email: winstonwei0512@gmail.com
   github: https://github.com/WinstonWmj
   linkedin: null
-  google_scholar: null
+  google_scholar: https://scholar.google.com.hk/citations?user=_HalqN4AAAAJ&hl=zh-CN
 ---
