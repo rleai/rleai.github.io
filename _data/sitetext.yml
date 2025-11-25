@@ -158,6 +158,10 @@ en: &DEFAULT_EN
             role: "Ph.D candidate"
             image: assets/img/team/jiang-zhennan.jpg
             url: "/team/jiang-zhennan/"
+          - name: "Huang, Zefang"
+            role: "Ph.D student"
+            image: assets/img/team/huang-zefang.jpg
+            url: "/team/huang-zefang/"
           - name: "Yang, Ke"
             role: "Ph.D candidate"
             image: assets/img/team/YangKe.jpg
