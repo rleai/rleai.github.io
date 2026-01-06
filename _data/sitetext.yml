@@ -122,7 +122,7 @@ en: &DEFAULT_EN
         people:
           - name: "Yu, Chao"
             role: "Principal Investigator"
-            image: assets/img/team/Yu, Chao.jpg
+            image: assets/img/team/yu-chao.png
             url: https://nicsefc.ee.tsinghua.edu.cn/people/ChaoYu
       - name: "Project Manager"
         people:
@@ -329,7 +329,7 @@ es: &DEFAULT_ES
         people:
           - name: "Yu, Chao"
             role: "Principal Investigator"
-            image: assets/img/team/ChaoYu.jpg
+            image: assets/img/team/yu-chao.png
             url: https://nicsefc.ee.tsinghua.edu.cn/people/ChaoYu
             social:
               - url: https://nicsefc.ee.tsinghua.edu.cn/people/ChaoYu
@@ -515,7 +515,7 @@ de: &DEFAULT_DE
         people:
           - name: "Yu, Chao"
             role: "Principal Investigator"
-            image: assets/img/team/ChaoYu.jpg
+            image: assets/img/team/yu-chao.png
             url: https://nicsefc.ee.tsinghua.edu.cn/people/ChaoYu
             social:
               - url: https://nicsefc.ee.tsinghua.edu.cn/people/ChaoYu
