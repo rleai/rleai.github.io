@@ -40,5 +40,5 @@ publications:
 contact:
   email: s-wk25@bjzgca.edu.cn
   github: https://github.com/nkwangk
-  google_scholar: [https://scholar.google.com/citations?hl=en](https://scholar.google.com/citations?hl=en&user=I6kIOM0AAAAJ)
+  google_scholar: https://scholar.google.com/citations?hl=en&user=I6kIOM0AAAAJ
 --- 
