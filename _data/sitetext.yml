@@ -134,10 +134,6 @@ en: &DEFAULT_EN
         people: []
       - name: "Ph.D. Students"
         people:
-          - name: "Chen, Haolin"
-            role: "Ph.D candidate"
-            image: assets/img/team/chen-haolin.jpg
-            url: "/team/chen-haolin/"
           - name: "Chen, Jiawei"
             role: "Ph.D candidate"
             image: assets/img/team/chen-jiawei.jpg
@@ -182,20 +178,12 @@ en: &DEFAULT_EN
             role: "Ph.D candidate"
             image: assets/img/team/wei-mingjie.jpg
             url: "/team/wei-mingjie/"
+          - name: "Wang, kai"
+            role: "Ph.D candidate"
+            image: assets/img/team/wang-kai.png
+            url: "/team/wang-kai/"
       - name: "Interns"
         people:
-          - name: "Gao, Feng"
-            role: "Intern"
-            image: assets/img/team/headimage.png
-            url: "/team/gao-feng/"
-          - name: "Wang, Yukun"
-            role: "Intern"
-            image: assets/img/team/headimage.png
-            url: "/team/wang-yukun/"
-          - name: "Zhang, Tonghe"
-            role: "Intern"
-            image: assets/img/team/headimage.png
-            url: "/team/zhang-tonghe/"
 
   contact:
     title: "Join Us"
@@ -344,10 +332,6 @@ es: &DEFAULT_ES
         people: []
       - name: "Ph.D. Students"
         people:
-          - name: "Chen, Haolin"
-            role: "Ph.D."
-            image: assets/img/team/chen-haolin.jpg
-            url: "/team/chen-haolin/"
           - name: "Chen, Jiawei"
             role: "Ph.D."
             image: assets/img/team/chen-jiawei.jpg
@@ -374,18 +358,6 @@ es: &DEFAULT_ES
             url: "/team/wei-mingjie/"
       - name: "Interns"
         people:
-          - name: "Gao, Feng"
-            role: "Intern"
-            image: assets/img/team/headimage.png
-            url: "/team/gao-feng/"
-          - name: "Wang, Yukun"
-            role: "Intern"
-            image: assets/img/team/headimage.png
-            url: "/team/wang-yukun/"
-          - name: "Zhang, Tonghe"
-            role: "Intern"
-            image: assets/img/team/headimage.png
-            url: "/team/zhang-tonghe/"
 
   contact:
     title: "Contáctenos"
@@ -530,10 +502,6 @@ de: &DEFAULT_DE
         people: []
       - name: "Ph.D. Students"
         people:
-          - name: "Chen, Haolin"
-            role: "Ph.D."
-            image: assets/img/team/headimage.png
-            url: "/team/chen-haolin/"
           - name: "Chen, Jiawei"
             role: "Ph.D."
             image: assets/img/team/chen-jiawei.jpg
@@ -552,18 +520,6 @@ de: &DEFAULT_DE
             url: "/team/jiang-zhennan/"
       - name: "Interns"
         people:
-          - name: "Gao, Feng"
-            role: "Intern"
-            image: assets/img/team/headimage.png
-            url: "/team/gao-feng/"
-          - name: "Wang, Yukun"
-            role: "Intern"
-            image: assets/img/team/headimage.png
-            url: "/team/wang-yukun/"
-          - name: "Zhang, Tonghe"
-            role: "Intern"
-            image: assets/img/team/headimage.png
-            url: "/team/zhang-tonghe/"
 
   contact:
     title: "Kontakt"
