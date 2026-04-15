@@ -3,7 +3,7 @@ layout: profile
 title: Wang, Kai
 name: Wang, Kai
 role: Ph.D. Student
-image: /assets/img/team/wang-kai.jpg
+image: /assets/img/team/wang-kai.png
 email: s-wk25@bjzgca.edu.cn
 education: 
   - degree: Ph.D. Student
